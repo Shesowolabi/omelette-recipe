@@ -1,0 +1,108 @@
+style.css
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    color:hsl(24,5%,18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.recipe-card{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 650px;
+    padding: 2rem;
+    text-align: left;
+    overflow: hidden;
+}
+.recipe-image{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+.recipe-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.prep-time{
+    border-radius: 20px;
+    background-color: hsl(0, 71%, 90%);
+    margin: 5px ;
+    padding: 1rem 1.5rem;
+    line-height: 25px;
+}
+.prep-time h3{
+    margin-bottom: 0.5rem;
+    color: rgb(212, 107, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prep-time p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.ingredients{
+    text-align: left;
+    margin-top: 1rem;
+}
+.ingredients h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(240, 184, 115);
+}
+.ingredients ul{
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+.ingredients ul li{
+    margin-bottom: 0.5rem;
+}
+.instructions{
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.instructions h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(240, 184, 115);
+}
+.instructions ol{
+    padding-left: 1.5rem;
+}
+.instructions ol li{
+    margin-bottom: 0.75rem;
+}
+.instructions ol li:last-child{
+    margin-bottom: 0;
+}
+.Nutrition{
+    text-align: left;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.Nutrition h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(240, 184, 115);
+}
+.Nutrition td{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: auto;
+    display:inline-table;
+    justify-content:space-between;
+}
